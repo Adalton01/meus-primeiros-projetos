@@ -1,38 +1,40 @@
-# Downloader de Vídeos do YouTube em MP4
+Este programa foi desenvolvido em Python com o objetivo de baixar imagens em formato JPEG e convertê-las automaticamente para arquivos PDF.
+A ferramenta oferece uma maneira simples e prática de organizar imagens e transformá-las em documentos portáteis, ideais para armazenamento, impressão ou compartilhamento.
 
-Este projeto é um programa desenvolvido em **Python** que permite baixar vídeos do **YouTube** diretamente em formato **MP4**.  
-A aplicação é simples, rápida e ideal para quem deseja salvar vídeos localmente para estudo, uso pessoal ou projetos offline.
+Funcionalidades principais
 
-## 💡 Descrição
+Download automático de imagens em formato .jpeg
 
-O programa utiliza bibliotecas do Python para realizar o download de vídeos do YouTube com apenas alguns cliques.  
-Possui uma interface gráfica simples (Tkinter) que facilita o uso mesmo para quem não tem experiência com programação.
+Conversão rápida de JPEG para PDF
 
-## 🚀 Tecnologias Utilizadas
+Suporte para múltiplas imagens
 
-- **Python 3**
-- **Tkinter** — para a interface gráfica  
-- **pytube** — para o download dos vídeos  
+Interface simples e intuitiva (CLI)
 
-## ⚙️ Como Usar
+Código leve e de fácil manutenção
 
-1. Instale o Python 3 em seu computador, se ainda não tiver.  
-2. Instale as dependências necessárias executando o comando:
-   ```bash
-   pip install pytube
+Tecnologias utilizadas
 
+Linguagem: Python
 
+Bibliotecas:
 
-📂 Estrutura do Projeto
+requests (para download das imagens)
 
-projeto/
-├── main.py          # Arquivo principal do programa
-├── requirements.txt # Dependências do projeto
-└── README.md        # Este arquivo
+Pillow (para manipulação e conversão das imagens)
 
+os e pathlib (para gerenciamento de arquivos)
 
-📘 Observações
+Objetivo do projeto
 
-O programa é apenas para fins educacionais e uso pessoal.
+O objetivo é automatizar a tarefa de baixar e converter imagens em PDF, facilitando o fluxo de trabalho de quem precisa gerar documentos rapidamente a partir de fotos, screenshots ou materiais visuais online.
 
-O uso para download de conteúdo protegido por direitos autorais é de responsabilidade do usuário.
+Possíveis usos
+
+Criação de catálogos simples em PDF
+
+Organização de fotos pessoais ou profissionais
+
+Automação de tarefas administrativas e escolares
+
+Aprendizado de manipulação de arquivos com Python
